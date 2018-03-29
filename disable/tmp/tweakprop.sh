@@ -1,7 +1,6 @@
 #!/sbin/sh
 set -e
-## /tmp/tweakprop.sh | tweakprop http://forum.xda-developers.com/showthread.php?t=2664332 | https://notabug.org/kl3/tweakprop
-ver=0.5.9a
+ver=0.1
 
 ## credits for ui_print() go to chainfire
 OUTFD=$2
@@ -12,8 +11,8 @@ ui_print() {
 
 ui_print " "
 ui_print "###############################"
-ui_print "#       tweakprop $ver       #"
-ui_print "#         --by kl3--          #"
+ui_print "#   Disable Navbar $ver       #"
+ui_print "#   --by deadman96385--       #"
 ui_print "###############################"
 ui_print " "
 
